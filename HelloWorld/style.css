@@ -1,7 +1,7 @@
 body { 
     background-color:blueviolet; 
     color:white;
-    text-decoration: underline;
+   text-decoration: underline;
   
  }
 
@@ -32,6 +32,15 @@ button:hover {
     background-color: lightgrey;
 }
 
+a {
+    color: white;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: lightgrey;
+}    
+
 #contact-section {
     margin-top: 50px;
     text-align: center;
@@ -39,4 +48,5 @@ button:hover {
 
 .title {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-}    
+} 
+
