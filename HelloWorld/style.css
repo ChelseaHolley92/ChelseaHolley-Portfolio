@@ -1,6 +1,7 @@
 body { 
     background-color:blueviolet; 
     color:white;
+    text-decoration: underline;
   
  }
 
@@ -26,7 +27,7 @@ button {
   display: block;
   margin: 20px auto;
 }
-  
+
 button:hover {
     background-color: lightgrey;
 }
