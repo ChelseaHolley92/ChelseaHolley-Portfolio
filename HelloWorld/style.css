@@ -84,7 +84,7 @@ content-container {
     border: radius 10px;
 }
 .right-section {
-    flex 2;
+    flex: 2;
 }
 
 .right-section h1 {
