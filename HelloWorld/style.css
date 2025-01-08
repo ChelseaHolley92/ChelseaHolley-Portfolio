@@ -106,7 +106,7 @@ content-container {
 
 .connect {
     text-align: center;
-    margin: 50px auto;
+    margin: 40px auto;
 }
 
 .connect h8 {
@@ -121,9 +121,12 @@ content-container {
     font-size: 18px;
     text-decoration: none;
     color: #0073b1;
+    border: 1px solid #0073b1;
 }
 
 .connect a:hover {
+    background-color: #0073b1;
     text-decoration: underline;
-    color: #005582
+    color: white;
+}
 
