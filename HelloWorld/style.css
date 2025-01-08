@@ -13,6 +13,7 @@ color:white;
     font-weight: bold;
  }
 
+
  
 p { 
 text-align: center;
@@ -102,4 +103,27 @@ content-container {
     font-size: 16px;
     line-height: 1.6;
 }
+
+.connect {
+    text-align: center;
+    margin: 50px auto;
+}
+
+.connect h8 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.connect a {
+    display: inline-block;
+    margin: 10px 15px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #0073b1;
+}
+
+.connect a:hover {
+    text-decoration: underline;
+    color: #005582
 
