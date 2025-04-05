@@ -106,7 +106,7 @@ font-size: 16px;
     font-weight: 500;
 }
 
-#projects .projects {
+#projects {
     background-color: rgba(255, 255, 255, 0.05);
     margin: 20px auto;
     padding: 20px;
@@ -119,17 +119,20 @@ font-size: 16px;
     margin-bottom: 30px;
 }
 
-#projects .project a {
+ .project a {
     color:#a18cd1;
     text-decoration: none;
 }
 
-#projects .project a:hover {
+ .project a:hover {
     text-decoration: underline;
 }
 
 #education {
-    margin-top: 40px;
+    background-color: #0e0c1f;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
 }
 
 button {
