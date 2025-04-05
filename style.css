@@ -87,9 +87,9 @@ font-size: 16px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: flex-start;
-    gap: 60px;
-    max-width: 800px;
+    gap: 80px;
+    margin: 40px auto;
+    max-width: 900px;
 }
 
 .info-box div {
@@ -113,10 +113,16 @@ font-size: 16px;
     max-width: 600px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+    text-align: left;
 }
 
-#projects h2 {
-    margin-bottom: 30px;
+#projects h4 {
+    margin-bottom: 10px;
+    color: #fbc2eb;
+}
+
+.project p {
+    line-height: 1.6;
 }
 
  .project a {
@@ -217,9 +223,11 @@ content-container {
     line-height: 1.6;
 }
 
-.connect {
+#connect {
+background-color: #0e0c1f;
+color: white;
+padding: 50px 20px;
     text-align: center;
-    margin: 40px auto;
 }
 
 .connect h8 {
@@ -228,17 +236,18 @@ content-container {
     color: #333;
 }
 
-.connect a {
+.connect-buttons a {
     display: inline-block;
-    margin: 10px 15px;
-    font-size: 18px;
+    margin: 10px;
+    padding: 1opx 20px;
+    background-color: #a18cd1;
+    color: white;
+    border-radius: 20px;
     text-decoration: none;
-    color: #0073b1;
-    border: 1px solid #0073b1;
+    font-weight: bold;
 }
 
-.connect a:hover {
-    background-color: #0073b1;
-    text-decoration: underline;
-    color: white;
+.connect-buttons a:hover {
+    background-color: #fbc2eb;
+    color: #1e1b3a;
 }
