@@ -60,6 +60,17 @@ img {
     margin: 20px;
 }
 
+#about {
+    background: inner-gradient(to bottom, #2d2c54, #1d1bea);
+    color: white;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 80px 20px;
+}
+
 .projects {
     margin-bottom: 20px;
     padding: 10px;
