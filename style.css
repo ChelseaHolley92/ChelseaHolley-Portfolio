@@ -54,10 +54,13 @@ font-size: 16px;
     background-color: #e0d4f7;
 }
 
-img {
+.profile-pic {
     border-radius: 50%;
     width: 150px;
+    height: 150px;
+    object-fit: cover;
     margin: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0.3);
 }
 
 #about {
