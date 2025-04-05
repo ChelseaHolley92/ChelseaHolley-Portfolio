@@ -70,8 +70,9 @@ font-size: 16px;
     text-align: left;
 }
 #about {
-    background: inner-gradient(to bottom,  #6a4fc3, #1e1b3a );
+    background: linear-gradient(to bottom,  #6a4fc3, #1e1b3a );
     padding: 80px 20px;
+    color: white;
 }
 
 .about-wrapper {
