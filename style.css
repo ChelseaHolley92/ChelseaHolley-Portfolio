@@ -54,6 +54,12 @@ font-size: 16px;
     background-color: #e0d4f7;
 }
 
+img {
+    border-radius: 50%;
+    width: 150px;
+    margin: 20px;
+}
+
 .projects {
     margin-bottom: 20px;
     padding: 10px;
