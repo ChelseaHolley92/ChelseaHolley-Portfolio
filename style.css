@@ -86,7 +86,7 @@ font-size: 16px;
 .info-box {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: left;
     gap: 80px;
     margin: 40px auto;
     max-width: 900px;
