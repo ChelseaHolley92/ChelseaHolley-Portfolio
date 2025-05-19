@@ -133,6 +133,17 @@ font-size: 16px;
     text-decoration: underline;
 }
 
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+
+
 #education {
     background-color: #0e0c1f;
     color: white;
